@@ -11,7 +11,7 @@ const SITE = {
   email:       'info@abria.ca',
   address:     'Whitby, Ontario, Canada',
   linkedin:    'https://linkedin.com/company/abria-capital',
-  formspree:   'https://formspree.io/f/xwvawpjl',   // ← replace with your Formspree ID
+  formspree:   'https://formspree.io/f/xvzvwrog',   // ← replace with your Formspree ID
   advisoryUrl: 'advisory/advisory-home.html',
 };
 
@@ -160,12 +160,12 @@ function initForm() {
       } else {
         btn.textContent = 'Submit My Application';
         btn.disabled = false;
-        alert('There was an issue submitting the form. Please email us directly at ${SITE.email}.');
+        alert(`There was an issue submitting the form. Please email us directly at ${SITE.email}.`);
       }
-    } catch {
+    } catch(err) {
       btn.textContent = 'Submit My Application';
       btn.disabled = false;
-      alert('Connection error. Please email us at ${SITE.email}.');
+      alert(`Connection error. Please email us at ${SITE.email}.`);
     }
   });
 }
