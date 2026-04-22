@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/><meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Business Funding Blog | Canadian Business Loan Guides | Abria Capital</title>
+  <meta name="description" content="Practical guides and straight answers on business loans, working capital, loan packaging, and how to get funded in Canada. Written for Canadian business owners."/>
+  <link rel="icon" type="image/x-icon" href="../favicon.ico" />
+  <link rel="icon" type="image/png" sizes="32x32" href="../assets/img/favicon-32.png" />
+  <link rel="canonical" href="https://capital.abria.ca/blog/"/>
+  <link rel="preconnect" href="https://fonts.googleapis.com"/>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="../assets/css/style.css"/>
+</head>
+<body>
+<div id="utility-bar"></div>
+<nav id="site-nav"></nav>
+<div class="page-hero">
+  <div class="container">
+    <span class="eyebrow eyebrow-light">Business Funding Insights</span>
+    <h1>Straight Answers on Business Financing in Canada</h1>
+    <p>Practical guides for business owners who want to understand how Canadian business lending actually works — written without the fluff.</p>
+  </div>
+</div>
+<section class="section">
+  <div class="container">
+    <div class="blog-grid">
+      <a href="how-to-get-a-business-loan-canada.html" style="display:block;text-decoration:none;color:inherit;" class="blog-card">
+        <div class="blog-banner">💡</div>
+        <div class="blog-card-body">
+          <span class="blog-tag">Business Loans</span>
+          <h3>How to Get a Business Loan in Canada: A Practical Guide</h3>
+          <p>What lenders actually look for, what documents you need, and how to improve your approval odds before you apply.</p>
+          <span class="blog-meta">Abria Capital · Business Loans</span>
+        </div>
+      </a>
+      <a href="why-business-loan-declined-canada.html" style="display:block;text-decoration:none;color:inherit;" class="blog-card">
+        <div class="blog-banner">❌</div>
+        <div class="blog-card-body">
+          <span class="blog-tag">Loan Prep</span>
+          <h3>Why Was My Business Loan Application Declined in Canada?</h3>
+          <p>The real reasons Canadian businesses get declined — and what to address before applying again.</p>
+          <span class="blog-meta">Abria Capital · Loan Preparation</span>
+        </div>
+      </a>
+      <a href="alternative-lending-canada-guide.html" style="display:block;text-decoration:none;color:inherit;" class="blog-card">
+        <div class="blog-banner">🔄</div>
+        <div class="blog-card-body">
+          <span class="blog-tag">Alternative Lending</span>
+          <h3>Alternative Business Lending in Canada: What Are Your Options?</h3>
+          <p>Banks aren't the only path to capital. Here's what non-bank financing actually looks like for Canadian SMEs.</p>
+          <span class="blog-meta">Abria Capital · Alternative Lending</span>
+        </div>
+      </a>
+      <a href="working-capital-canada-guide.html" style="display:block;text-decoration:none;color:inherit;" class="blog-card">
+        <div class="blog-banner">💰</div>
+        <div class="blog-card-body">
+          <span class="blog-tag">Working Capital</span>
+          <h3>What Is Working Capital Financing and Do I Need It?</h3>
+          <p>Working capital problems look different for every business. Here's how to identify what you're dealing with — and what to do about it.</p>
+          <span class="blog-meta">Abria Capital · Working Capital</span>
+        </div>
+      </a>
+      <a href="business-plan-for-loan-canada.html" style="display:block;text-decoration:none;color:inherit;" class="blog-card">
+        <div class="blog-banner">📄</div>
+        <div class="blog-card-body">
+          <span class="blog-tag">Business Plans</span>
+          <h3>Do You Need a Business Plan to Get a Loan in Canada?</h3>
+          <p>Short answer: it depends. Long answer: here's when you need one, what it should include, and how it changes your approval odds.</p>
+          <span class="blog-meta">Abria Capital · Loan Preparation</span>
+        </div>
+      </a>
+      <a href="equipment-financing-canada-guide.html" style="display:block;text-decoration:none;color:inherit;" class="blog-card">
+        <div class="blog-banner">🔧</div>
+        <div class="blog-card-body">
+          <span class="blog-tag">Equipment Financing</span>
+          <h3>Equipment Financing in Canada: How It Works and Who Qualifies</h3>
+          <p>Equipment loans are structured differently from standard business loans. Here's what changes — and how to qualify.</p>
+          <span class="blog-meta">Abria Capital · Equipment Financing</span>
+        </div>
+      </a>
+    </div>
+  </div>
+</section>
+<footer id="site-footer"></footer>
+<script>
+// fix relative asset paths for /blog/ subdirectory
+document.addEventListener('DOMContentLoaded',()=>{
+  // Patch shared.js paths to use ../assets/
+  const bar=document.getElementById('utility-bar');
+  const nav=document.getElementById('site-nav');
+  const foot=document.getElementById('site-footer');
+});
+</script>
+<script src="../assets/js/shared.js"></script>
+<script>
+// Override logo and asset paths for blog subdirectory
+document.querySelectorAll('.nav-logo img,.footer-brand img').forEach(img=>{img.src='../assets/img/abria-logo.png';});
+document.querySelectorAll('.nav-links a,.footer-col a').forEach(a=>{
+  if(a.href && !a.href.startsWith('http') && !a.href.includes('../')){
+    // Already relative from shared.js — prepend ../ to internal links
+  }
+});
+</script>
+</body>
+</html>

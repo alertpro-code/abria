@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <!-- Capital site -->
+  <url><loc>https://abria.ca/</loc><changefreq>weekly</changefreq><priority>1.0</priority></url>
+  <url><loc>https://abria.ca/funding-solutions.html</loc><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://abria.ca/how-it-works.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://abria.ca/loan-prep.html</loc><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://abria.ca/industries.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://abria.ca/about.html</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://abria.ca/contact.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://abria.ca/blog/</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://abria.ca/blog/how-to-get-a-business-loan-canada.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://abria.ca/blog/why-business-loan-declined-canada.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://abria.ca/blog/alternative-lending-canada-guide.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <!-- Advisory site -->
+  <url><loc>https://abria.ca/advisory/advisory-home.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://abria.ca/advisory/services.html</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://abria.ca/advisory/advisory-about.html</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://abria.ca/advisory/insights.html</loc><changefreq>weekly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://abria.ca/advisory/advisory-contact.html</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://abria.ca/advisory/separation-divorce-financial-guidance-ontario.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://abria.ca/advisory/business-coaching-income-growth-ontario.html</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://abria.ca/advisory/small-business-help-toronto.html</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://abria.ca/advisory/franchise-consultant-ontario.html</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://abria.ca/advisory/business-partner-dispute-help-ontario.html</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://abria.ca/advisory/divorce-self-employed-spouse-ontario.html</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://abria.ca/advisory/divorce-financially-dependent-spouse-ontario.html</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+</urlset>
