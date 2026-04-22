@@ -144,6 +144,10 @@ function checkFormSuccess() {
         <div style="font-size:2.5rem;margin-bottom:16px;">✓</div>
         <h3>Application Received</h3>
         <p>Thank you. We'll review your inquiry and follow up within one business day with an honest assessment of your options.</p>`;
+      // Scroll to success message
+      setTimeout(() => {
+        success.scrollIntoView({ behavior: 'smooth', block: 'center' });
+      }, 200);
     }
   }
 }
