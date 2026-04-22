@@ -11,7 +11,7 @@ const SITE = {
   email:       'info@abria.ca',
   address:     'Whitby, Ontario, Canada',
   linkedin:    'https://linkedin.com/company/abria-capital',
-  formspree:   'https://formspree.io/f/YOUR_FORM_ID',   // ← replace with your Formspree ID
+  formspree:   'https://formspree.io/f/xwvawpjl',   // ← replace with your Formspree ID
   advisoryUrl: 'advisory/advisory-home.html',
 };
 

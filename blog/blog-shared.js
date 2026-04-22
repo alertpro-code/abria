@@ -5,7 +5,7 @@ const SITE_BLOG = {
   phoneDisplay:'(647) 254-0231',
   email:       'info@abria.ca',
   advisoryUrl: '../advisory/advisory-home.html',
-  formspree:   'https://formspree.io/f/YOUR_FORM_ID',
+  formspree:   'https://formspree.io/f/xwvawpjl',
 };
 
 const PAGES_BLOG = [
