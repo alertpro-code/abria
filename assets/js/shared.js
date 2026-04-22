@@ -132,7 +132,23 @@ function injectFooter() {
     </div>`;
 }
 
-/* ---- FORMSPREE CONTACT FORM ---- */
+/* ---- FORMSPREE SUCCESS DETECTION ---- */
+function checkFormSuccess() {
+  if (window.location.search.includes('success=true')) {
+    const form = document.getElementById('contactForm');
+    const success = document.getElementById('formSuccess');
+    if (form) form.style.display = 'none';
+    if (success) {
+      success.style.display = 'block';
+      success.innerHTML = `
+        <div style="font-size:2.5rem;margin-bottom:16px;">✓</div>
+        <h3>Application Received</h3>
+        <p>Thank you. We'll review your inquiry and follow up within one business day with an honest assessment of your options.</p>`;
+    }
+  }
+}
+
+/* ---- FORMSPREE CONTACT FORM (JS fallback) ---- */
 function initForm() {
   const form = document.getElementById('contactForm');
   if (!form) return;
@@ -188,6 +204,7 @@ document.addEventListener('DOMContentLoaded', () => {
   injectHeader();
   injectNav();
   injectFooter();
+  checkFormSuccess();
   initForm();
   initFAQ();
 });
