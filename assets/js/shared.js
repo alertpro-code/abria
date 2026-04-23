@@ -115,6 +115,7 @@ function injectFooter() {
             <li><a href="contact.html">Contact Us</a></li>
             <li><a href="${SITE.advisoryUrl}" target="_blank">Advisory Services ↗</a></li>
             <li><a href="privacy.html">Privacy Policy</a></li>
+            <li><a href="terms.html">Terms of Use</a></li>
           </ul>
         </div>
       </div>
