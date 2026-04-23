@@ -116,9 +116,20 @@ function injectFooterBlog() {
     </div>`;
 }
 
+function initBackToTopBlog() {
+  const btn = document.createElement('button');
+  btn.innerHTML = '↑';
+  btn.setAttribute('aria-label', 'Back to top');
+  btn.style.cssText = `position:fixed;bottom:28px;right:24px;width:44px;height:44px;border-radius:50%;background:#3a7bd5;color:#fff;border:none;font-size:1.1rem;font-weight:700;cursor:pointer;display:none;align-items:center;justify-content:center;box-shadow:0 4px 12px rgba(15,28,63,0.25);z-index:999;font-family:'Montserrat',sans-serif;`;
+  document.body.appendChild(btn);
+  window.addEventListener('scroll', () => { btn.style.display = window.scrollY > 400 ? 'flex' : 'none'; });
+  btn.addEventListener('click', () => { window.scrollTo({ top: 0, behavior: 'smooth' }); });
+}
+
 document.addEventListener('DOMContentLoaded', () => {
   injectUtilityBarBlog();
   injectHeaderBlog();
   injectNavBlog();
   injectFooterBlog();
+  initBackToTopBlog();
 });

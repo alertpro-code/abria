@@ -203,6 +203,48 @@ function initFAQ() {
   });
 }
 
+/* ---- BACK TO TOP BUTTON ---- */
+function initBackToTop() {
+  const btn = document.createElement('button');
+  btn.id = 'backToTop';
+  btn.innerHTML = '↑';
+  btn.setAttribute('aria-label', 'Back to top');
+  btn.style.cssText = `
+    position: fixed;
+    bottom: 28px;
+    right: 24px;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    background: var(--blue);
+    color: #fff;
+    border: none;
+    font-size: 1.1rem;
+    font-weight: 700;
+    cursor: pointer;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 4px 12px rgba(15,28,63,0.25);
+    z-index: 999;
+    transition: opacity 0.2s, transform 0.2s;
+    font-family: 'Montserrat', sans-serif;
+  `;
+  document.body.appendChild(btn);
+
+  window.addEventListener('scroll', () => {
+    if (window.scrollY > 400) {
+      btn.style.display = 'flex';
+    } else {
+      btn.style.display = 'none';
+    }
+  });
+
+  btn.addEventListener('click', () => {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  });
+}
+
 /* ---- INIT ---- */
 document.addEventListener('DOMContentLoaded', () => {
   injectUtilityBar();
@@ -212,4 +254,5 @@ document.addEventListener('DOMContentLoaded', () => {
   checkFormSuccess();
   initForm();
   initFAQ();
+  initBackToTop();
 });
