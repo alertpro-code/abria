@@ -28,16 +28,9 @@ const PAGES = [
 
 /* ---- INJECT UTILITY BAR ---- */
 function injectUtilityBar() {
+  // Utility bar removed — clean header only
   const bar = document.getElementById('utility-bar');
-  if (!bar) return;
-  bar.innerHTML = `
-    <div class="container">
-      <div class="util-phone">Call us: <span>${SITE.phoneDisplay}</span></div>
-      <div style="display:flex;align-items:center;gap:16px;">
-        <a href="mailto:${SITE.email}" style="color:rgba(255,255,255,0.4);font-size:0.72rem;">${SITE.email}</a>
-        <a href="${SITE.advisoryUrl}" class="util-advisory">Advisory Services →</a>
-      </div>
-    </div>`;
+  if (bar) bar.style.display = 'none';
 }
 
 /* ---- INJECT HEADER (logo + Apply Today) ---- */
@@ -127,7 +120,10 @@ function injectFooter() {
       </div>
       <div class="footer-bottom">
         <div>© ${new Date().getFullYear()} Abria Capital & Advisory. All rights reserved. ${SITE.address}.</div>
-        <div class="footer-disc">Abria Capital & Advisory is a capital brokerage and advisory firm. We are not a bank, credit union, or direct lender. Financing is subject to lender qualification. Approval is not guaranteed. Abria operates in Canada.</div>
+        <div style="display:flex;align-items:center;gap:24px;flex-wrap:wrap;">
+          <a href="${SITE.advisoryUrl}" style="color:rgba(255,255,255,0.45);font-size:0.75rem;letter-spacing:0.06em;text-transform:uppercase;font-family:'Montserrat',sans-serif;font-weight:600;border-bottom:1px solid rgba(255,255,255,0.2);padding-bottom:1px;">Advisory Services →</a>
+          <div class="footer-disc">Abria Capital & Advisory is a capital brokerage and advisory firm. We are not a bank, credit union, or direct lender. Financing is subject to lender qualification. Approval is not guaranteed. Abria operates in Canada.</div>
+        </div>
       </div>
     </div>`;
 }

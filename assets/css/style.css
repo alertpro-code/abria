@@ -862,10 +862,11 @@ textarea { resize: vertical; min-height: 100px; }
   #site-header { overflow: hidden; }
   .header-inner { height: 60px; }
   .nav-logo img { height: 36px; }
-  .btn-primary.btn-apply-header { 
-    font-size: 0.65rem; 
-    padding: 9px 14px; 
+  .header-inner .btn-primary {
+    font-size: 0.6rem;
+    padding: 7px 12px;
     letter-spacing: 0.06em;
+    white-space: nowrap;
   }
 
   /* Utility bar */
