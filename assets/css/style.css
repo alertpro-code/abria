@@ -980,6 +980,15 @@ textarea { resize: vertical; min-height: 100px; }
   .faq-q { font-size: 0.88rem; }
 }
 
+
+  /* About page grid */
+  .about-grid { grid-template-columns: 1fr !important; gap: 24px !important; }
+
+  /* Credibility strip */
+  .cred-strip-inner { flex-direction: column; gap: 12px; }
+  .cred-strip-inner > div { border-right: none !important; border-bottom: 1px solid var(--border); padding: 10px 16px !important; }
+  .cred-strip-inner > div:last-child { border-bottom: none; }
+
 /* === SMALL MOBILE: 400px and below === */
 @media (max-width: 400px) {
   .hero h1 { font-size: 1.75rem; }

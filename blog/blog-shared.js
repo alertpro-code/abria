@@ -39,7 +39,7 @@ function injectHeaderBlog() {
     <div class="container">
       <div class="header-inner">
         <a href="../index.html" class="nav-logo">
-          <img src="../assets/img/abria-logo.png" alt="Abria Capital & Advisory" loading="lazy">
+          <img src="../assets/img/abria-logo.png" alt="Abria Capital" loading="lazy">
         </a>
         <a href="../contact.html" class="btn-primary">Apply Today</a>
       </div>
@@ -72,7 +72,7 @@ function injectFooterBlog() {
     <div class="container">
       <div class="footer-grid">
         <div class="footer-brand">
-          <img src="../assets/img/abria-logo-white.png" alt="Abria Capital & Advisory">
+          <img src="../assets/img/abria-logo-white.png" alt="Abria Capital">
           <p>Canadian business funding, loan packaging, and capital advisory.</p>
           <p style="margin-top:12px;"><a href="tel:+16472540231" style="color:rgba(255,255,255,0.5);">${SITE_BLOG.phoneDisplay}</a><br>
           <a href="mailto:${SITE_BLOG.email}" style="color:rgba(255,255,255,0.5);">${SITE_BLOG.email}</a></p>
@@ -94,6 +94,9 @@ function injectFooterBlog() {
             <li><a href="how-to-get-a-business-loan-canada.html">How to Get a Business Loan</a></li>
             <li><a href="why-business-loan-declined-canada.html">Why Applications Get Declined</a></li>
             <li><a href="alternative-lending-canada-guide.html">Alternative Lending Guide</a></li>
+            <li><a href="bad-credit-business-loan-canada.html">Bad Credit Business Loans</a></li>
+            <li><a href="business-plan-for-loan-canada.html">Business Plans for Loans</a></li>
+            <li><a href="what-lenders-look-for-business-loan-canada.html">What Lenders Look For</a></li>
           </ul>
         </div>
         <div class="footer-col">
@@ -107,7 +110,7 @@ function injectFooterBlog() {
         </div>
       </div>
       <div class="footer-bottom">
-        <div>© ${new Date().getFullYear()} Abria Capital & Advisory. All rights reserved.</div>
+        <div>© ${new Date().getFullYear()} Abria Capital. All rights reserved.</div>
         <div class="footer-disc">Not a bank or direct lender. Financing subject to lender qualification.</div>
       </div>
     </div>`;

@@ -9,7 +9,7 @@ const SITE = {
   phone:       '+1 (647) 254-0231',
   phoneDisplay:'(647) 254-0231',
   email:       'info@abria.ca',
-  address:     'Whitby, Ontario, Canada',
+  address:     '102 Colborne St E, Whitby, ON L1N 1V8',
   linkedin:    'https://linkedin.com/company/abria-capital',
   formspree:   'https://formspree.io/f/xvzvwrog',   // ← replace with your Formspree ID
   advisoryUrl: 'advisory/advisory-home.html',
@@ -41,7 +41,7 @@ function injectHeader() {
     <div class="container">
       <div class="header-inner">
         <a href="index.html" class="nav-logo">
-          <img src="assets/img/abria-logo.png" alt="Abria Capital & Advisory" loading="lazy">
+          <img src="assets/img/abria-logo.png" alt="Abria Capital" loading="lazy">
         </a>
         <a href="contact.html" class="btn-primary">Apply Today</a>
       </div>
@@ -81,7 +81,7 @@ function injectFooter() {
     <div class="container">
       <div class="footer-grid">
         <div class="footer-brand">
-          <img src="assets/img/abria-logo-white.png" alt="Abria Capital & Advisory">
+          <img src="assets/img/abria-logo-white.png" alt="Abria Capital">
           <p>Canadian business funding, loan packaging, and capital advisory. We help businesses access financing and prepare the file that gets approved.</p>
           <p style="margin-top:12px;"><a href="tel:${SITE.phone}" style="color:rgba(255,255,255,0.5);">${SITE.phoneDisplay}</a><br>
           <a href="mailto:${SITE.email}" style="color:rgba(255,255,255,0.5);">${SITE.email}</a></p>
@@ -119,10 +119,10 @@ function injectFooter() {
         </div>
       </div>
       <div class="footer-bottom">
-        <div>© ${new Date().getFullYear()} Abria Capital & Advisory. All rights reserved. ${SITE.address}.</div>
+        <div>© ${new Date().getFullYear()} Abria Capital. All rights reserved. ${SITE.address}.</div>
         <div style="display:flex;align-items:center;gap:24px;flex-wrap:wrap;">
           <a href="${SITE.advisoryUrl}" style="color:rgba(255,255,255,0.45);font-size:0.75rem;letter-spacing:0.06em;text-transform:uppercase;font-family:'Montserrat',sans-serif;font-weight:600;border-bottom:1px solid rgba(255,255,255,0.2);padding-bottom:1px;">Advisory Services →</a>
-          <div class="footer-disc">Abria Capital & Advisory is a capital brokerage and advisory firm. We are not a bank, credit union, or direct lender. Financing is subject to lender qualification. Approval is not guaranteed. Abria operates in Canada.</div>
+          <div class="footer-disc">Abria Capital is a capital brokerage and advisory firm. We are not a bank, credit union, or direct lender. Financing is subject to lender qualification. Approval is not guaranteed. Abria operates in Canada.</div>
         </div>
       </div>
     </div>`;
@@ -136,14 +136,19 @@ function checkFormSuccess() {
     if (form) form.style.display = 'none';
     if (success) {
       success.style.display = 'block';
+      success.style.padding = '48px 32px';
+      success.style.textAlign = 'center';
       success.innerHTML = `
-        <div style="font-size:2.5rem;margin-bottom:16px;">✓</div>
-        <h3>Application Received</h3>
-        <p>Thank you. We'll review your inquiry and follow up within one business day with an honest assessment of your options.</p>`;
-      // Scroll to success message
+        <div style="font-size:3rem;margin-bottom:16px;">✅</div>
+        <h3 style="font-size:1.4rem;margin-bottom:12px;color:var(--navy);">Application Received</h3>
+        <p style="color:var(--text-muted);max-width:420px;margin:0 auto 24px;">Thank you. We'll review your inquiry and follow up within one business day with an honest assessment of your options.</p>
+        <a href="index.html" style="display:inline-block;font-family:'Montserrat',sans-serif;font-size:0.75rem;font-weight:700;letter-spacing:0.08em;text-transform:uppercase;background:var(--blue);color:#fff;padding:12px 24px;border-radius:4px;text-decoration:none;">Back to Home</a>`;
+      // Wait for full page render then scroll
       setTimeout(() => {
-        success.scrollIntoView({ behavior: 'smooth', block: 'center' });
-      }, 200);
+        const rect = success.getBoundingClientRect();
+        const scrollTop = window.pageYOffset + rect.top - 120;
+        window.scrollTo({ top: scrollTop, behavior: 'smooth' });
+      }, 600);
     }
   }
 }
