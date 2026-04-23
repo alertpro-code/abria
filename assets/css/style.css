@@ -981,6 +981,10 @@ textarea { resize: vertical; min-height: 100px; }
 }
 
 
+  /* Contact page — form first on mobile */
+  .contact-form-col { order: -1; }
+  .contact-info-col { order: 1; }
+
   /* About page grid */
   .about-grid { grid-template-columns: 1fr !important; gap: 24px !important; }
 
