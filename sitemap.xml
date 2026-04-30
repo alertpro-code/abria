@@ -54,4 +54,23 @@
   <url><loc>https://abria.ca/advisory/article-outgrowing-systems.html</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
   <url><loc>https://abria.ca/advisory/article-small-business-outside-help.html</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
   <url><loc>https://abria.ca/advisory/article-strategic-plans-fail.html</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+
+  <!-- New service pages -->
+  <url><loc>https://abria.ca/bank-declined-business-loan-ontario.html</loc><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://abria.ca/business-loans-canada.html</loc><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://abria.ca/working-capital-loans-canada.html</loc><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://abria.ca/equipment-financing-canada.html</loc><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://abria.ca/business-loan-broker-ontario.html</loc><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://abria.ca/business-financing-ontario.html</loc><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://abria.ca/business-loans-whitby-durham.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://abria.ca/business-loans-contractors-trades.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://abria.ca/business-loans-trucking-transportation.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://abria.ca/business-loans-healthcare-dental.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+
+  <!-- New blog posts -->
+  <url><loc>https://abria.ca/blog/can-i-reapply-after-business-loan-decline-canada.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://abria.ca/blog/does-business-loan-rejection-hurt-credit-canada.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://abria.ca/blog/what-to-fix-weak-business-loan-application-canada.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://abria.ca/blog/business-financing-with-cra-debt-canada.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://abria.ca/blog/best-financing-seasonal-businesses-canada.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
 </urlset>
