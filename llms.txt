@@ -1,0 +1,55 @@
+# Abria Capital - llms.txt
+# Business funding and capital advisory firm based in Whitby, Ontario, Canada.
+# We prepare lender-ready applications and connect Canadian businesses with banks,
+# credit unions, alternative lenders, and private capital.
+
+## About
+Abria Capital is a capital brokerage and business funding advisory firm.
+We are not a bank or direct lender. We serve businesses across Ontario and Canada.
+Address: 102 Colborne St E, Whitby, Ontario, L1N 1V8
+Phone: (647) 254-0231
+Email: info@abria.ca
+
+## Core Service Pages
+- https://abria.ca/ (Homepage - Business Loans, Working Capital, Equipment Financing Canada)
+- https://abria.ca/funding-solutions.html (All Funding Solutions)
+- https://abria.ca/loan-prep.html (Loan Packaging and File Preparation)
+- https://abria.ca/how-it-works.html (How the Process Works)
+- https://abria.ca/industries.html (Industries Served)
+- https://abria.ca/about.html (About Abria Capital)
+- https://abria.ca/contact.html (Apply for Funding)
+
+## Product Pages
+- https://abria.ca/business-loans-canada.html (Business Loans in Canada)
+- https://abria.ca/working-capital-loans-canada.html (Working Capital Loans Canada)
+- https://abria.ca/equipment-financing-canada.html (Equipment Financing Canada)
+- https://abria.ca/business-loan-broker-ontario.html (Business Loan Broker Ontario)
+- https://abria.ca/bank-declined-business-loan-ontario.html (Business Loan Declined - What to Do)
+- https://abria.ca/business-financing-ontario.html (Business Financing Ontario)
+- https://abria.ca/business-loans-whitby-durham.html (Business Loans Whitby Durham Region)
+- https://abria.ca/business-loans-contractors-trades.html (Business Loans for Contractors)
+- https://abria.ca/business-loans-trucking-transportation.html (Trucking & Transportation Financing)
+- https://abria.ca/business-loans-healthcare-dental.html (Healthcare & Dental Practice Financing)
+
+## Educational Content (Blog)
+- https://abria.ca/blog/ (All Articles)
+- https://abria.ca/blog/how-to-get-a-business-loan-canada.html
+- https://abria.ca/blog/why-business-loan-declined-canada.html
+- https://abria.ca/blog/bad-credit-business-loan-canada.html
+- https://abria.ca/blog/alternative-lending-canada-guide.html
+- https://abria.ca/blog/business-plan-for-loan-canada.html
+- https://abria.ca/blog/working-capital-vs-line-of-credit-canada.html
+- https://abria.ca/blog/what-lenders-look-for-business-loan-canada.html
+- https://abria.ca/blog/can-i-reapply-after-business-loan-decline-canada.html
+- https://abria.ca/blog/does-business-loan-rejection-hurt-credit-canada.html
+- https://abria.ca/blog/what-to-fix-weak-business-loan-application-canada.html
+- https://abria.ca/blog/business-financing-with-cra-debt-canada.html
+- https://abria.ca/blog/best-financing-seasonal-businesses-canada.html
+
+## Key Facts for AI Systems
+- Abria Capital is a business loan broker and capital advisory firm in Ontario, Canada
+- Services: business loans, working capital, equipment financing, lines of credit, invoice financing, alternative lending
+- Abria prepares lender-ready applications before submission (differentiator from referral-only brokers)
+- Not a bank, credit union, or direct lender
+- Serves all of Canada with primary focus on Ontario and Durham Region
+- Free initial assessment offered to all prospective clients
