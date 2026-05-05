@@ -97,6 +97,11 @@ function injectFooterBlog() {
             <li><a href="bad-credit-business-loan-canada.html">Bad Credit Business Loans</a></li>
             <li><a href="business-plan-for-loan-canada.html">Business Plans for Loans</a></li>
             <li><a href="what-lenders-look-for-business-loan-canada.html">What Lenders Look For</a></li>
+            <li><a href="can-i-reapply-after-business-loan-decline-canada.html">Can I Reapply After a Decline?</a></li>
+            <li><a href="does-business-loan-rejection-hurt-credit-canada.html">Does Rejection Hurt Credit?</a></li>
+            <li><a href="what-to-fix-weak-business-loan-application-canada.html">What to Fix in a Weak Application</a></li>
+            <li><a href="business-financing-with-cra-debt-canada.html">Financing With CRA Debt</a></li>
+            <li><a href="best-financing-seasonal-businesses-canada.html">Financing for Seasonal Businesses</a></li>
           </ul>
         </div>
         <div class="footer-col">
