@@ -204,6 +204,19 @@ function initFAQ() {
   });
 }
 
+/* ---- GOOGLE ANALYTICS 4 ---- */
+function injectGA4() {
+  const script1 = document.createElement('script');
+  script1.async = true;
+  script1.src = 'https://www.googletagmanager.com/gtag/js?id=G-NDHGCVL161';
+  document.head.appendChild(script1);
+
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-NDHGCVL161');
+}
+
 /* ---- BACK TO TOP BUTTON ---- */
 function initBackToTop() {
   const btn = document.createElement('button');
@@ -248,6 +261,7 @@ function initBackToTop() {
 
 /* ---- INIT ---- */
 document.addEventListener('DOMContentLoaded', () => {
+  injectGA4();
   injectUtilityBar();
   injectHeader();
   injectNav();
