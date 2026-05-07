@@ -111,6 +111,7 @@ function injectFooter() {
           <h5>Company</h5>
           <ul>
             <li><a href="about.html">About Abria</a></li>
+            <li><a href="partner-program.html">Partner Program</a></li>
             <li><a href="blog/index.html">Blog & Insights</a></li>
             <li><a href="contact.html">Contact Us</a></li>
             <li><a href="${SITE.advisoryUrl}" target="_blank">Advisory Services ↗</a></li>
